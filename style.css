@@ -57,19 +57,19 @@ main {
   font-size: 2rem;
   font-weight: 400;
 }
+.body-copy h1 {
+  font-family: var(--heading-font-family);
+  font-size: 5vw;
+  line-height: 6vw;
+  font-weight: 400;
+}
 .body-copy {
   max-width: 80%;
   text-align: center;
   font-family: var(--body-font-family);
   color: white;
-  font-size: 1.5rem;
-  line-height: 2.5rem;
- }
- .body-copy h1 {
-   font-family: var(--heading-font-family);
-   font-size: 5vw;
-   line-height: 6vw;
-   font-weight: 400;
+  font-size: 3.5vw;
+  line-height: 5vw;
  }
 .btn {
   display: inline-block;
@@ -104,30 +104,27 @@ main {
 }
 .social-icon-list-item {
  text-align: center;
- line-height: 2.1rem;
- font-size: 1.3rem;
- padding: .25rem;
  margin: .75rem;
- width: 2rem;
- height: 2rem;
  border: 1px solid white;
- border-radius: 100%;
- color: white;
+ border-radius: 50%;
+ line-height: 2rem;
 }
 .social-icon-list-item a {
+  display: inline-block;
   color: white;
+  padding: .5rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 1.3rem;
 }
 .social-icon-list-item:hover {
-  background-color: white;
-}
-.social-icon-list-item i:hover {
-  color: var(--primary-color);
+  background-color: hsla(360, 100%, 100%, .2);
 }
 footer {
   text-align: center;
   color: white;
   font-family: var(--body-font-family);
-  margin: 3rem 0;
+  margin: 15% 0 2rem 0;
 }
 .attribution {
   margin: 0;
@@ -136,6 +133,10 @@ footer {
 
 /* MEDIA QUERIES */
 @media all and (min-width: 715px) {
+  body {
+    background-image: url('/images/bg-desktop.svg');
+    background-size: contain;
+  }
   .wrapper {
     justify-content: center;
     position: relative;
@@ -160,6 +161,8 @@ footer {
     margin-left: 5%;
     padding-top: 2.5%;
     width: 40%;
+    font-size: 1.5vw;
+    line-height: 2.75vw;
   }
   .body-copy h1 {
     font-size: 3vw;
@@ -167,7 +170,7 @@ footer {
   }
   .social-icons {
     position: absolute;
-    bottom: -100px;
+    bottom: -40%;
     right: 0;
   }
 }
