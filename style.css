@@ -57,7 +57,7 @@ main {
   max-width: 100%;
   margin-bottom: 4rem;
 }
-.hero h1 {
+.hero h2 {
   padding: 0 2rem;
   font-size: 2rem;
   font-weight: 400;
@@ -167,7 +167,7 @@ footer {
     font-size: 1.5vw;
     line-height: 2.75vw;
   }
-  .body-copy h1 {
+  .body-copy h2 {
     font-size: 3vw;
     line-height: 3.5vw;
   }
