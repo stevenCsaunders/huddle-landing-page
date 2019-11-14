@@ -60,11 +60,6 @@ main {
   max-width: 100%;
   margin-bottom: 4rem;
 }
-.hero h2 {
-  padding: 0 2rem;
-  font-size: 2rem;
-  font-weight: 400;
-}
 .body-copy h1 {
   font-family: var(--heading-font-family);
   font-size: 5vw;
@@ -170,7 +165,7 @@ footer {
     font-size: 1.5vw;
     line-height: 2.75vw;
   }
-  .body-copy h2 {
+  .body-copy h1 {
     font-size: 3vw;
     line-height: 3.5vw;
   }
